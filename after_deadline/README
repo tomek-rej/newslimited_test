@@ -8,6 +8,9 @@ Then start up the nodejs server:
 
 Then go to http://localhost:8000
 
+Listed at the top you will find a table of tags and their links.
+Below is a list of commits and links to the Github url.
+
 
 I made an assumption that the link should take the user to the github page of the tag.
 By default the github api seems to return the tarball or zipball url.
