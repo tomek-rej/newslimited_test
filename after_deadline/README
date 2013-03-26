@@ -1,7 +1,7 @@
 USAGE
 
 First run the fetch_tags.py script:
-    python fetch_tags.py
+    python fetch_data.py
 
 Then start up the nodejs server:
     nodejs display_tags.js
