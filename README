@@ -1,0 +1,13 @@
+USAGE
+
+First run the fetch_tags.py script:
+    python fetch_tags.py
+
+Then start up the nodejs server:
+    nodejs display_tags.js
+
+Then go to http://localhost:8000
+
+
+I made an assumption that the link should take the user to the github page of the tag.
+By default the github api seems to return the tarball or zipball url.
