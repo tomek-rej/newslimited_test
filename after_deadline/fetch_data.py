@@ -21,8 +21,6 @@ def fetch_commits():
     request = urllib2.urlopen('{0}/{1}/{2}/commits'.format(base_url, user, repository))
     json_data = json.loads(request.read())
     for commit in json_data:
-        print commit['url']
-        print commit['sha']
         commits[commit['sha']] = replace_url_commits(commit['url'])
     return commits
     
